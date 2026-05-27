@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Coffeea - Contact Us</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <div class="logo">
+            <span>☕︎ coffeea</span>
+        </div>
+
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="about.html">About us</a></li>
+            <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+
+        <button class="signup-btn">Sign Up</button>
+    </nav>
+
+    <!-- CONTACT SECTION START -->
+    <section class="contact-section">
+        <h2 class="contact-title">Get in Touch</h2>
+        <p class="contact-subtitle">We'd love to hear from you. Let's talk coffee!</p>
+
+        <div class="contact-container">
+            <!-- Left Side: Form -->
+            <div class="contact-form">
+                <form id="contactForm">
+                    <!-- input tag = User Type -->
+                    <input type="text" id="name" placeholder="Your Name" required>
+                    <!-- required = blank page-->
+                    
+                    <input type="email" id="email" placeholder="Your Email" required>
+                    <!-- type="email" = @  Error -->
+                    
+                    <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+                    <!-- textarea =  Text  -->
+                    
+                    <button type="submit" class="submit-btn">Send Message</button>
+                    <!-- type="submit" = Form Submit -->
+                </form>
+            </div>
+
+            <!-- Right Side: Info -->
+            <div class="contact-info">
+                <div class="info-box">
+                    <h3>📍 Visit Us</h3>
+                    <p>123, Coffee Street, Tirunelveli, Tamil Nadu - 627001</p>
+                </div>
+                <div class="info-box">
+                    <h3>📞 Call Us</h3>
+                    <p>+91 98765 43210</p>
+                </div>
+                <div class="info-box">
+                    <h3>📧 Email Us</h3>
+                    <p>hello@coffeea.com</p>
+                </div>
+                <div class="info-box">
+                    <h3>🕒 Open Hours</h3>
+                    <p>Mon - Sun: 8:00 AM to 10:00 PM</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- CONTACT SECTION END -->
+
+    <script src="script.js"></script>
+</body>
+</html>
